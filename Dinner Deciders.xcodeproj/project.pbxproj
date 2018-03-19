@@ -8,22 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		E11197D82053999C00C4A279 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11197D72053999C00C4A279 /* AppDelegate.swift */; };
-		E11197DA2053999C00C4A279 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11197D92053999C00C4A279 /* ViewController.swift */; };
 		E11197DD2053999C00C4A279 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11197DB2053999C00C4A279 /* Main.storyboard */; };
 		E11197E02053999C00C4A279 /* Dinner_Deciders.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E11197DE2053999C00C4A279 /* Dinner_Deciders.xcdatamodeld */; };
 		E11197E22053999C00C4A279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11197E12053999C00C4A279 /* Assets.xcassets */; };
 		E11197E52053999C00C4A279 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11197E32053999C00C4A279 /* LaunchScreen.storyboard */; };
+		E1791C0C20559519004DC233 /* BusinessTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1791C0B20559519004DC233 /* BusinessTableView.swift */; };
+		E1791C0E2055B5CE004DC233 /* BusinessDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1791C0D2055B5CE004DC233 /* BusinessDetailViewController.swift */; };
+		E1791C102055BBB4004DC233 /* YelpReviewsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1791C0F2055BBB4004DC233 /* YelpReviewsDataSource.swift */; };
+		E1791C122055BBF2004DC233 /* YelpReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1791C112055BBF2004DC233 /* YelpReview.swift */; };
+		E1791C142055BCB0004DC233 /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1791C132055BCB0004DC233 /* ReviewCell.swift */; };
+		E187B09320539F35006A6FF5 /* PersonOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = E187B09220539F35006A6FF5 /* PersonOne.swift */; };
+		E1885C832054CEC700998F8C /* PersonTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1885C822054CEC700998F8C /* PersonTwo.swift */; };
+		E18884CE2054D56D0038583D /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18884CD2054D56D0038583D /* ResultsViewController.swift */; };
+		E18884D02054DEE50038583D /* YelpBusinessesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18884CF2054DEE50038583D /* YelpBusinessesModel.swift */; };
+		E18884D22054E2680038583D /* BusinessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18884D12054E2680038583D /* BusinessCell.swift */; };
+		F2B45D258C7D85CFC46D861E /* Pods_Dinner_Deciders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2952E92AC65FE796B8659F97 /* Pods_Dinner_Deciders.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A596707A99EE8F0929B1A8B /* Pods-Dinner Deciders.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dinner Deciders.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dinner Deciders/Pods-Dinner Deciders.debug.xcconfig"; sourceTree = "<group>"; };
+		2952E92AC65FE796B8659F97 /* Pods_Dinner_Deciders.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dinner_Deciders.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0969DBF1D1A7A925858207 /* Pods-Dinner Deciders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dinner Deciders.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dinner Deciders/Pods-Dinner Deciders.release.xcconfig"; sourceTree = "<group>"; };
 		E11197D42053999C00C4A279 /* Dinner Deciders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dinner Deciders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11197D72053999C00C4A279 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E11197D92053999C00C4A279 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E11197DC2053999C00C4A279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E11197DF2053999C00C4A279 /* Dinner_Deciders.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dinner_Deciders.xcdatamodel; sourceTree = "<group>"; };
 		E11197E12053999C00C4A279 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E11197E42053999C00C4A279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E11197E62053999C00C4A279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1791C0B20559519004DC233 /* BusinessTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessTableView.swift; sourceTree = "<group>"; };
+		E1791C0D2055B5CE004DC233 /* BusinessDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailViewController.swift; sourceTree = "<group>"; };
+		E1791C0F2055BBB4004DC233 /* YelpReviewsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpReviewsDataSource.swift; sourceTree = "<group>"; };
+		E1791C112055BBF2004DC233 /* YelpReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpReview.swift; sourceTree = "<group>"; };
+		E1791C132055BCB0004DC233 /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
+		E187B09220539F35006A6FF5 /* PersonOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonOne.swift; sourceTree = "<group>"; };
+		E1885C822054CEC700998F8C /* PersonTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTwo.swift; sourceTree = "<group>"; };
+		E18884CD2054D56D0038583D /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		E18884CF2054DEE50038583D /* YelpBusinessesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpBusinessesModel.swift; sourceTree = "<group>"; };
+		E18884D12054E2680038583D /* BusinessCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B45D258C7D85CFC46D861E /* Pods_Dinner_Deciders.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		689FDC056F117CD1C83EBDF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2952E92AC65FE796B8659F97 /* Pods_Dinner_Deciders.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAFFD8EA1BC5D6C18B8D6E27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A596707A99EE8F0929B1A8B /* Pods-Dinner Deciders.debug.xcconfig */,
+				BA0969DBF1D1A7A925858207 /* Pods-Dinner Deciders.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E11197CB2053999C00C4A279 = {
 			isa = PBXGroup;
 			children = (
 				E11197D62053999C00C4A279 /* Dinner Deciders */,
 				E11197D52053999C00C4A279 /* Products */,
+				AAFFD8EA1BC5D6C18B8D6E27 /* Pods */,
+				689FDC056F117CD1C83EBDF4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +99,21 @@
 			isa = PBXGroup;
 			children = (
 				E11197D72053999C00C4A279 /* AppDelegate.swift */,
-				E11197D92053999C00C4A279 /* ViewController.swift */,
+				E187B09220539F35006A6FF5 /* PersonOne.swift */,
 				E11197DB2053999C00C4A279 /* Main.storyboard */,
 				E11197E12053999C00C4A279 /* Assets.xcassets */,
 				E11197E32053999C00C4A279 /* LaunchScreen.storyboard */,
 				E11197E62053999C00C4A279 /* Info.plist */,
 				E11197DE2053999C00C4A279 /* Dinner_Deciders.xcdatamodeld */,
+				E1885C822054CEC700998F8C /* PersonTwo.swift */,
+				E18884CD2054D56D0038583D /* ResultsViewController.swift */,
+				E18884CF2054DEE50038583D /* YelpBusinessesModel.swift */,
+				E18884D12054E2680038583D /* BusinessCell.swift */,
+				E1791C0B20559519004DC233 /* BusinessTableView.swift */,
+				E1791C0D2055B5CE004DC233 /* BusinessDetailViewController.swift */,
+				E1791C0F2055BBB4004DC233 /* YelpReviewsDataSource.swift */,
+				E1791C112055BBF2004DC233 /* YelpReview.swift */,
+				E1791C132055BCB0004DC233 /* ReviewCell.swift */,
 			);
 			path = "Dinner Deciders";
 			sourceTree = "<group>";
@@ -74,9 +125,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E11197E92053999C00C4A279 /* Build configuration list for PBXNativeTarget "Dinner Deciders" */;
 			buildPhases = (
+				3DC14E1FF0FF31DEE2F947E6 /* [CP] Check Pods Manifest.lock */,
 				E11197D02053999C00C4A279 /* Sources */,
 				E11197D12053999C00C4A279 /* Frameworks */,
 				E11197D22053999C00C4A279 /* Resources */,
+				15D47907EF4CE825B4D52F37 /* [CP] Embed Pods Frameworks */,
+				DD68448EC46B29DF5DF6C56E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +188,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15D47907EF4CE825B4D52F37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Dinner Deciders/Pods-Dinner Deciders-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dinner Deciders/Pods-Dinner Deciders-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DC14E1FF0FF31DEE2F947E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dinner Deciders-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD68448EC46B29DF5DF6C56E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dinner Deciders/Pods-Dinner Deciders-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E11197D02053999C00C4A279 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E11197DA2053999C00C4A279 /* ViewController.swift in Sources */,
+				E1791C122055BBF2004DC233 /* YelpReview.swift in Sources */,
+				E1791C142055BCB0004DC233 /* ReviewCell.swift in Sources */,
+				E1791C0E2055B5CE004DC233 /* BusinessDetailViewController.swift in Sources */,
+				E18884D22054E2680038583D /* BusinessCell.swift in Sources */,
+				E1791C102055BBB4004DC233 /* YelpReviewsDataSource.swift in Sources */,
+				E1791C0C20559519004DC233 /* BusinessTableView.swift in Sources */,
 				E11197E02053999C00C4A279 /* Dinner_Deciders.xcdatamodeld in Sources */,
+				E18884D02054DEE50038583D /* YelpBusinessesModel.swift in Sources */,
 				E11197D82053999C00C4A279 /* AppDelegate.swift in Sources */,
+				E187B09320539F35006A6FF5 /* PersonOne.swift in Sources */,
+				E18884CE2054D56D0038583D /* ResultsViewController.swift in Sources */,
+				E1885C832054CEC700998F8C /* PersonTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +395,11 @@
 		};
 		E11197EA2053999C00C4A279 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A596707A99EE8F0929B1A8B /* Pods-Dinner Deciders.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RSN8ZDA33;
 				INFOPLIST_FILE = "Dinner Deciders/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cimarketing.Dinner-Deciders";
@@ -290,9 +411,11 @@
 		};
 		E11197EB2053999C00C4A279 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA0969DBF1D1A7A925858207 /* Pods-Dinner Deciders.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RSN8ZDA33;
 				INFOPLIST_FILE = "Dinner Deciders/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cimarketing.Dinner-Deciders";
